@@ -1,0 +1,58 @@
+
+/* Header styling */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #11292c;
+    padding: 10px 40px;
+    height: 80px;
+}
+
+/* Logo styling */
+.logo img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Navigation styling */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+nav ul li a:hover {
+    color: #00bcd4;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.center-text {
+    text-align: center;
+}
