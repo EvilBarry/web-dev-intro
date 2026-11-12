@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "BackroomsFont";
+  src: url("./font/StillLifeHelveticaNeue-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* Header styling */
 .header {
@@ -55,4 +61,20 @@ nav ul li a:hover {
 
 .center-text {
     text-align: center;
+    font-family: "BackroomsFont", sans-serif;
+}
+.image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.image-row img {
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
 }
